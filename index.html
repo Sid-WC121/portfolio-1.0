@@ -10,6 +10,7 @@
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
         <title>Sid-WC121</title>
+        <link rel="shortcut icon" type="image" href="assets/img/logo.jpg">
     </head>
     <body>
         <!--===== HEADER =====-->
@@ -63,7 +64,7 @@
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Sidharth</span><br> Web Designer</h1>
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Sidharth</span><br> Web Developer</h1>
 
                     <a href="#" class="button">Contact</a>
                 </div>
@@ -92,14 +93,16 @@
                 <h2 class="section-title">About</h2>
 
                 <div class="about__container bd-grid">
-                    <div class="about__img">
+                    <div class="about__img" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
                         <img src="assets/img/about.jpg" alt="">
                     </div>
                     
-                    <div>
-                        <h2 class="about__subtitle">I'am Sidharth</h2>
-                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
-                    </div>                                   
+                    <section class="card">
+                        <div class="card-content">
+                            <h2 class="about__subtitle">I'am Sidharth</h2>
+                            <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>    
+                        </div>       
+                    </section>                                 
                 </div>
             </section>
 
@@ -109,7 +112,7 @@
 
                 <div class="skills__container bd-grid">          
                     <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <h2 class="skills__subtitle">Professional Skills</h2>
                         <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
                         <div class="skills__data">
                             <div class="skills__names">
@@ -260,5 +263,8 @@
 
         <!--===== MAIN JS =====-->
         <script src="assets/js/main.js"></script>
+
+        <!--====== Tilt =====-->
+        <script src="https://micku7zu.github.io/vanilla-tilt.js/src/vanilla-tilt.min.js"></script>
     </body>
 </html>
