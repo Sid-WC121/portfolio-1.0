@@ -603,28 +603,29 @@ footer .menu li a:hover{
   }
 }
 
+
+/* ===== scroll =====*/
+body::-webkit-scrollbar{
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track{
+  background: #ffffff;
+}
+
+body::-webkit-scrollbar-thumb{
+  background: #9775f3;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+  background: #9775f3;
+}
+/* =================*/
+
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
   }
-/* ===== scroll =====*/
-  body::-webkit-scrollbar{
-    width: 0.25rem;
-  }
-
-  body::-webkit-scrollbar-track{
-    background: #ffffff;
-  }
-
-  body::-webkit-scrollbar-thumb{
-    background: #9775f3;
-  }
-
-  body::-webkit-scrollbar-thumb:hover{
-    background: #9775f3;
-  }
-/* =================*/
-
   .section {
     padding-top: 4rem;
     padding-bottom: 3rem;
